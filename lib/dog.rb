@@ -15,7 +15,7 @@ end
 #The methods act as mechanisms to expose the data internally (from the object) to the outside world. They are responsible for setting and getting
 #an individual dog's name.
 
-lassie = Dog..new
+lassie = Dog.new
 lassie.name = "Lassie"
 
 lassie.name
