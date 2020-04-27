@@ -9,7 +9,7 @@ end
 
 def name #instance method 2 => responsible for reporting, or reading the name.
   #The name method is called a getter. It gets a property for us.
-  this_dogs_name
+  @this_dogs_name
 end
 
 #The methods act as mechanisms to expose the data internally (from the object) to the outside world. They are responsible for setting and getting
