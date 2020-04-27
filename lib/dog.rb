@@ -2,13 +2,15 @@
 
 class Dog
   def name=(dog_name) #instance method 1. dog_name is an argument of a dog's name.
+    #name= method is a setter. It sets a property for us.
     this_dogs_name = dog_name #we set the dog's name equal to a variable.
   end
 end
 
 def name #instance method 2 => responsible for reporting, or reading the name.
+  #The name method is called a getter. It gets a property for us.
   this_dogs_name
 end
 
-#The methods act as mechanisms to expose the data internally to the outside world. They are responsible for setting and getting
+#The methods act as mechanisms to expose the data internally (from the object) to the outside world. They are responsible for setting and getting
 #an individual dog's name.
