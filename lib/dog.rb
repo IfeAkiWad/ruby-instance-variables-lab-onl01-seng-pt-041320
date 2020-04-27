@@ -6,9 +6,9 @@ class Dog
   end
 end
 
-def name #instance method 2 => responsible for reporting, or reading the name. 
+def name #instance method 2 => responsible for reporting, or reading the name.
   this_dogs_name
 end
 
-#The methods act as mechanisms to expose the data internally to the outside world. They are responsible for setting and getting 
+#The methods act as mechanisms to expose the data internally to the outside world. They are responsible for setting and getting
 #an individual dog's name.
