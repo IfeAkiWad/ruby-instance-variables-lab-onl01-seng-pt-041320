@@ -1,7 +1,7 @@
 #we are going to define two instance methods below.
 
 class Dog
-  def name=(dog_name) #instance method 1. dog_name is an argument of a dog's name.
+  def name=(dogs_name) #instance method 1. dog_name is an argument of a dog's name.
     #name= method is a setter. It sets a property for us.
     this_dogs_name = dog_name #we set the dog's name equal to a variable.
   end
