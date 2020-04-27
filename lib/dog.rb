@@ -3,7 +3,7 @@
 class Dog
   def name=(dogs_name) #instance method 1. dog_name is an argument of a dog's name.
     #name= method is a setter. It sets a property for us.
-    this_dogs_name = dogs_name #we set the dog's name equal to a variable.
+    @this_dogs_name = dogs_name #we set the dog's name equal to a variable.
   end
 end
 
